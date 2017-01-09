@@ -66,7 +66,7 @@
 	
 <!-- BEGIN MISC -->
   <project path="packages/apps/PackageInstaller" name="DirtyUnicorns/android_packages_apps_PackageInstaller" remote="github" revision="m" />
-  <project path="vendor/cm" name="SorrowfulMercies/android_vendor_resurrection" remote="rr" />
+  <project path="vendor/cm" name="SorrowfulMercies/android_vendor_resurrection" remote="github" revision="marshmallow" />
 <!-- END MISC -->
 
 	
