@@ -57,9 +57,14 @@
   <project path="vendor/cm" name="android_vendor_resurrection" remote="rr" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="rr" />
   <project path="packages/services/ThemeManagerService" name="android_packages_services_ThemeManagerService" remote="rr" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
 <!-- END RR -->
+	
+	
+<!-- BEGIN MISC -->
+  <project path="packages/apps/PackageInstaller" name="DirtyUnicorns/android_packages_apps_PackageInstaller" remote="github" revision="m" />
+<!-- END MISC -->
 
+	
 <!-- BEGIN LineageOS -->
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
