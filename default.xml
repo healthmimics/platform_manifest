@@ -8,6 +8,11 @@
 
   <remote  name="github"
                  fetch="https://github.com" />
+ 
+  <remote name="cm"
+          fetch="git://github.com/CyanogenMod"
+          revision="cm-13.0"
+          review="review.cyanogenmod.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
