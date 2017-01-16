@@ -36,7 +36,7 @@
 	   sync-f="true" />
 
 <!-- BEGIN RR -->
-  <project path="build" name="SorrowfulMercies/android_build" remote="github" revision="marshmallow" >
+  <project path="build" name="android_build" groups="pdk" remote="rr" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="platform_manifest" remote="rr"/>
