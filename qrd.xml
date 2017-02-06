@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.cyanogenmod.org" />
+           review="review.lineageos.org" />
 
   <remote name="caf"
           fetch="git://codeaurora.org"
